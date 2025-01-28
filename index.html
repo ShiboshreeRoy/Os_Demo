@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Mac OS UI</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="desktop">
+        <!-- Dock -->
+        <div id="dock">
+            <button class="dock-item" id="app1">🖥️</button>
+            <button class="dock-item" id="app2">📂</button>
+            <button class="dock-item" id="app3">📞</button>
+        </div>
+
+        <!-- Taskbar -->
+        <div id="taskbar">
+            <button id="taskbar-start">🍏</button>
+            <div id="taskbar-items"></div>
+        </div>
+
+        <!-- Placeholder for dynamic windows -->
+        <div id="windows-container"></div>
+    </div>
+
+    <script src="./config/script.js"></script>
+</body>
+</html>
